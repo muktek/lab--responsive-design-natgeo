@@ -76,11 +76,16 @@ After completing this assignment you should be able to
 - light grey color is `#aaaaaa`
 
 
-#### Make sure you include fontawesome in your `<head/>` *before* your `style.css` file
+## Icon Fonts
+
+Make sure you include fontawesome in your `<head/>` *before* your `style.css` file
+
+[Font Awesome 4,7 Documentation](https://fontawesome.com/v4.7.0/icons/)
+
 ```html
 <head>
       ...<!--  your title, meta tags etc. -->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="stylesheet" href="./css/styles.css">
 </head>
 ```
