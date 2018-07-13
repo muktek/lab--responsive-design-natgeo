@@ -32,6 +32,24 @@ After completing this assignment you should be able to
 
 ---
 
+## Setup
+1. Use the `gen-project-scss` script to create the files and folders for the project.
+  ```bash
+  cd ~/muktek/labs
+  gen-scss-project responsive-design-natgeo
+  ```
+
+2. `cd` into `responsive-design-natgeo`
+
+3. Use the `watch-scss` command in the project's root directory to compile the scss to 'watch' for changes in your `.scss` files and update your `style.css` file.
+
+4. Download image assets
+  ```sh
+  curl  https://raw.githubusercontent.com/muktek/lab--responsive-design-natgeo/master/image-files.zip > image-files.zip
+
+  unzip image-files.zip
+  ```
+
 ## Mockups
 
 ### Mobile
@@ -48,26 +66,11 @@ After completing this assignment you should be able to
 
 ---
 
-## Additional Instructions
 
-#### Setup
-1. Use the `gen-scss-project` script to create the files and folders for the project.
-  ```bash
-  cd ~/muktek/labs
-  gen-scss-project responsive-design-natgeo
-  ```
-2. `cd` into `responsive-design-natgeo`
-3. Use the `watch-scss` command in the project's root directory to compile the scss to 'watch' for changes in your `.scss` files and update your `style.css` file.
-4. Download image assets
-  ```sh
-  curl  https://raw.githubusercontent.com/muktek/lab--responsive-design-natgeo/master/image-files.zip > image-files.zip
 
-  unzip image-files.zip
-  ```
-
-#### Designer notes
-- the title fonts are _'Gill Sans'_, _'Century Gothic'_, _sans-serif_.
-- the fancy header font stack are  _'Georgia'_, _'Palatino'_, _serif_.
+## Designer notes
+- the body fonts are _'Gill Sans'_, _'Century Gothic'_, _sans-serif_.
+- the fancy header/title font stack are  _'Georgia'_, _'Palatino'_, _serif_.
 - yellow  color is `#fecd2f`
 - dark grey color is `#333333`
 - light grey color is `#aaaaaa`
